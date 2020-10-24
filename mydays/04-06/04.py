@@ -31,6 +31,9 @@ for count, enum_row in enumerate(day):
     T_out.append(day[count].T_out)
     pressure.append(day[count].pressure)
 
+fig, ax = plt.subplots(constrained_layout=True)
+
 with PdfPages(filelocation + "graph.pdf") as export_pdf:
-    plt.plot(datetime, flow, datetime, compression, datetime, T_in, datetime, T_out, datetime, pressure)
+    ax.plot(datetime, flow, datetime, compression, datetime, T_in, datetime, T_out, datetime, pressure)
+    secax = ax.secondary_xaxis('top')
     export_pdf.savefig()

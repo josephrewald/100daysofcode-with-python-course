@@ -8,7 +8,6 @@ Even if you're familiar with data structures, this will be a useful refresher.
 ## Day N: Watch videos and play around!
 
 Watch all of the videos. They'll provide you with the foundation you need to get working with lists, tuples and dictionaries.
-
 Have a play with your own lists, dicts and tuples in the Python shell and familiarise yourself with them.
 
 Feel free to watch the *What we learned* video as well as a recap!
